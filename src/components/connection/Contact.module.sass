@@ -1,0 +1,59 @@
+.footer
+  padding: 90px
+.contact
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-template-rows: repeat(4, 1fr)
+  grid-gap: 48px
+  p
+    font-weight: bold
+    margin-bottom: 8px
+  .office
+    grid-column-start: 1
+    grid-column-end: 2
+    grid-row-start: 1
+    grid-row-end: 2
+  .work
+    grid-column-start: 2
+    grid-column-end: 3
+    grid-row-start: 1
+    grid-row-end: 2
+.form
+  display: flex
+  flex-direction: column
+  grid-column-start: 3
+  grid-column-end: 4
+  grid-row-start: 1
+  grid-row-end: 5
+  input
+    padding: 4px 0
+    color: #909090
+    border: none
+    border-bottom: 1px solid #909090
+    &:focus
+      outline: none
+  label
+    margin-top: 30px
+    margin-bottom: 3px
+  span
+    margin-top: 35px
+    color: #909090
+    font-size: 9px
+    p
+      color: black
+      border-bottom: 1px dotted #222222
+      display: inline-block
+.social
+  div
+    display: inline-block
+    margin-right: 10px
+.message
+  position: relative
+  input
+    width: 100%
+    padding-right: 20px
+.clip
+  position: absolute
+  right: 0
+  top: 0
+  cursor: pointer
