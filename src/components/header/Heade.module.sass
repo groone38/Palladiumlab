@@ -1,0 +1,37 @@
+@import 'src/styles/mixin'
+
+.header
+  display: flex
+  background-color: white
+  transition: all .3s
+  position: relative
+  z-index: 3
+.header_nav
+  display: flex
+  justify-content: space-between
+  align-items: center
+  width: 100%
+  border-bottom: 1px solid #EBEBEB
+.header_block
+  display: flex
+  justify-content: space-evenly
+  align-items: center
+  height: 100%
+  width: 100%
+  border-right: 1px solid #EBEBEB
+  border-left: 1px solid #EBEBEB
+.img
+  padding: 35px
+  cursor: pointer
+  img
+    width: 18px
+    height: 18px
+.hover_header
+  background-color: transparent
+  color: white
+.hover_svg
+  svg
+    path
+      transition: all .3s
+      margin: auto
+      fill: white
